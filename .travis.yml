@@ -1,6 +1,3 @@
 language: ruby
-rvn:
-- 2.2
-- jruby
 script:
 - npm test
