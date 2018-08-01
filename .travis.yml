@@ -1,5 +1,5 @@
-language: node_js
-node_js:
-  - "6"
-script:
-  - npm test
+language: ruby
+rvn:
+- 2.2
+- jruby
+- rbx - 3
