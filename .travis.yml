@@ -2,4 +2,5 @@ language: ruby
 rvn:
 - 2.2
 - jruby
-- rbx - 3
+script:
+- npm test
