@@ -1,4 +1,5 @@
 # README
+[![Build Status](https://travis-ci.org/Grunwald1410/SDG.svg?branch=master)](https://travis-ci.org/Grunwald1410/SDG)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
