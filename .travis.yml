@@ -5,9 +5,14 @@ before-install:
 - gem --version
 - bundle lock --add-platform ruby
 - bundle lock --add-platform x86_64-linux
+- npm i npm -i
 
+after_success:
+  - bundle exec codeclimate-test-reporter
+  
 rvm:
 - 2.4.4
 
 script:
-- npm test
+  - bundle exec rails db:migrate RAILS_ENV=test
+  - bundle exec rspec
