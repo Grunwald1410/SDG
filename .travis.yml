@@ -8,3 +8,6 @@ before-install:
 
 rvm:
 - 2.4.4
+
+script:
+- npm test

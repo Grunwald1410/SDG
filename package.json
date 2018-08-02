@@ -1,4 +1,5 @@
 {
+	"test": "karma start",
   "name": "blog_test",
   "private": true,
   "dependencies": {}
