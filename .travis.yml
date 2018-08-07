@@ -7,11 +7,11 @@ before-install:
 - bundle lock --add-platform x86_64-linux
 - npm i npm -i
 - gem install bundler
+
+install:
 - bundle install
 
-after_success:
-  - bundle exec codeclimate-test-reporter
-  
+
 rvm:
 - 2.4.4
 
